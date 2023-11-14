@@ -22942,7 +22942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIRenderDevice_UpdateFenceValue_m2978F0D
 IL_0039:
 	{
 		uint32_t* L_7 = V_2;
-		int32_t L_8 = *((uint32_t*)L_7);
+		int32_t L_8 = (*(L_7));
 		V_4 = L_8;
 		uint32_t L_9 = V_1;
 		uint32_t L_10 = V_4;

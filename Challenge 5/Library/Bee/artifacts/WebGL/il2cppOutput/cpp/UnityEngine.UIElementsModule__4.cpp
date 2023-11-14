@@ -7094,13 +7094,14 @@ FINALLY_005f_1:
 
 CATCH_004a_2:
 					{
-						V_5 = ((ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549*)IL2CPP_GET_ACTIVE_EXCEPTION(ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549*));
-						ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549* L_14 = V_1;
+						ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549* L_14 = ((ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549*)IL2CPP_GET_ACTIVE_EXCEPTION(ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549*));;
+						V_5 = L_14;
+						ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549* L_15 = V_1;
 						il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
-						Debug_Assert_m6E778CACD0F440E2DEA9ACDD9330A22DAF16E96D((bool)((((RuntimeObject*)(ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549*)L_14) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0), NULL);
-						ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549* L_15 = V_5;
-						V_1 = L_15;
-						IL2CPP_POP_ACTIVE_EXCEPTION();
+						Debug_Assert_m6E778CACD0F440E2DEA9ACDD9330A22DAF16E96D((bool)((((RuntimeObject*)(ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549*)L_15) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0), NULL);
+						ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549* L_16 = V_5;
+						V_1 = L_16;
+						IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 						goto IL_005d_2;
 					}
 
@@ -7121,12 +7122,12 @@ IL_0069_1:
 
 IL_006a_1:
 			{
-				Queue_1_t488F4FFC87B785BACAAF18A6B2E9307E5451DF68* L_16 = V_0;
-				int32_t L_17;
-				L_17 = Queue_1_get_Count_m08F50B5D83CD07085F9B86C829170F37FE7EF037_inline(L_16, Queue_1_get_Count_m08F50B5D83CD07085F9B86C829170F37FE7EF037_RuntimeMethod_var);
-				V_6 = (bool)((((int32_t)L_17) > ((int32_t)0))? 1 : 0);
-				bool L_18 = V_6;
-				if (L_18)
+				Queue_1_t488F4FFC87B785BACAAF18A6B2E9307E5451DF68* L_17 = V_0;
+				int32_t L_18;
+				L_18 = Queue_1_get_Count_m08F50B5D83CD07085F9B86C829170F37FE7EF037_inline(L_17, Queue_1_get_Count_m08F50B5D83CD07085F9B86C829170F37FE7EF037_RuntimeMethod_var);
+				V_6 = (bool)((((int32_t)L_18) > ((int32_t)0))? 1 : 0);
+				bool L_19 = V_6;
+				if (L_19)
 				{
 					goto IL_0025_1;
 				}
@@ -7143,17 +7144,17 @@ IL_006a_1:
 
 IL_0093:
 	{
-		ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549* L_19 = V_1;
-		V_7 = (bool)((!(((RuntimeObject*)(ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549*)L_19) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_20 = V_7;
-		if (!L_20)
+		ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549* L_20 = V_1;
+		V_7 = (bool)((!(((RuntimeObject*)(ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549*)L_20) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_21 = V_7;
+		if (!L_21)
 		{
 			goto IL_00a0;
 		}
 	}
 	{
-		ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549* L_21 = V_1;
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_21, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&EventDispatcher_ProcessEventQueue_mDC6EAC056EA04D165F93E7D7991FDC7C5B1722D1_RuntimeMethod_var)));
+		ExitGUIException_tFF2EEEBACD9E5684D6112478EEF754B74D154549* L_22 = V_1;
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_22, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&EventDispatcher_ProcessEventQueue_mDC6EAC056EA04D165F93E7D7991FDC7C5B1722D1_RuntimeMethod_var)));
 	}
 
 IL_00a0:
